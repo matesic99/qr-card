@@ -1,0 +1,67 @@
+/*
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Outfit;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d6e2f0;
+}
+
+.container .card {
+  width: 85%;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  max-width: 32rem;
+  -webkit-box-shadow: 0 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.02), 0 1rem 1rem 1rem rgba(0, 0, 0, 0.02);
+          box-shadow: 0 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.02), 0 1rem 1rem 1rem rgba(0, 0, 0, 0.02);
+  padding-bottom: 3rem;
+}
+
+.container .card .qr-img {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.container .card .title {
+  margin-top: 1.8rem;
+  font-weight: 700;
+  font-size: 2.1rem;
+  text-align: center;
+  color: #1f3251;
+}
+
+.container .card .description {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #7b879d;
+  margin-top: 2rem;
+  padding: 0rem 1.4rem 0.7rem 1.4rem;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */

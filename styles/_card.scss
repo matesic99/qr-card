@@ -1,0 +1,45 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-gray;
+
+    .card{
+        width: 85%;
+        background-color: white;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        max-width: 32rem;
+        box-shadow: 0 0.5rem 0.5rem 0.5rem rgba(0,0,0, 0.02), 0 1rem 1rem 1rem rgba(0,0,0, 0.02);
+        padding-bottom:3rem;
+
+        .qr-img{
+            width: 100%;
+            border-radius: 1.2rem;
+        }
+
+
+        .title{
+            margin-top: 1.8rem;
+            font-weight: 700;
+            font-size: 2.1rem;
+            text-align: center;
+            color: $dark-blue;
+        }
+
+        .description{
+            font-size:1.5rem;
+            text-align: center;
+            color:$grayish-blue;
+            margin-top: 2rem;
+            padding: 0rem 1.4rem 0.7rem 1.4rem;
+            font-weight: 400;
+        }
+
+    }
+
+
+
+}
